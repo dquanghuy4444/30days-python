@@ -16,6 +16,11 @@ f = 'Hello world'
 
 # list : chứa nhiều phần tử có nhiều kiểu dữ liệu khác nhau
 g = [1, 2, 3, 4.4, 'str', True, False, False]
+print(g[0])
+g.append(True)
+print(g)
+g[1] = 10
+print(g)
 
 # tuple : không thể thay đổi khi đã khởi tạo
 g = (1, 2, 3)
@@ -26,6 +31,7 @@ print(h)
 
 # dict : lưu trữ các cặp khóa - giá trị
 i = {"name": "John", "age": 30}
+print(i["name"])
 
 # Nonetype
 j = None
